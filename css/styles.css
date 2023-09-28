@@ -86,7 +86,7 @@ a {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-menu-link::after {
-  content: normal;
+  content:'';
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -437,9 +437,10 @@ a {
 .footer-container {
   display: flex;
   align-items: baseline;
+  margin-right: 120px;
 }
 .footer-container-soc {
-  margin-right: 120px;
+  
 }
 .soc-media {
   font-weight: 500;
@@ -465,9 +466,10 @@ a {
   height: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
+  display: flex;
   align-items: center;
   justify-content: center;
-  display: flex;
+  
 }
 .soc-icon-footer:hover {
   background-color: #31d0aa;
